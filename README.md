@@ -25,6 +25,6 @@ config.cas = {
 ```js
 exports.cas = {
   enable: true,
-  path: 'egg-ua'
+  package: 'egg-ua'
 }
 ```
