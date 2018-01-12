@@ -1,0 +1,7 @@
+{
+  "name": "egg-cas",
+  "version": "1.0.0",
+  "eggPlugin": {
+    "name": "cas"
+  }
+}
