@@ -3,6 +3,7 @@
 ### config.default.js
 
 ```js
+const pathToRegExp = require('path-to-regexp');
 config.cas = {
     match: (ctx) => pathToRegExp([
       '/api/permission/*',
@@ -24,6 +25,6 @@ config.cas = {
 ```js
 exports.cas = {
   enable: true,
-  path: path.join(__dirname, '../lib/plugin/egg-cas')
+  path: 'egg-ua'
 }
 ```
